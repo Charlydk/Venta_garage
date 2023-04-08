@@ -132,6 +132,12 @@ form a{
     height: 50px;
 }
 
+.value{
+    color: var(--very-light-pink) ;
+    font-size: var(--md);
+    margin: 8 px 0 32px 0;
+}
+
 
 .login-button{
     margin-top: 14px;
