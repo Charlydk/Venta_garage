@@ -427,6 +427,7 @@ nav{
 .product-detail{
     width: 360px;
     padding-bottom: 24px;
+
     position: absolute;
     right: 0;
     
@@ -489,6 +490,19 @@ nav{
     font-size: var(--sm);
     margin-top: 0;
     margin-bottom: 36px;
+}
+
+.title4{
+    font-size: var(--lg);
+    font-weight: bold;
+}
+
+.title-container{
+    display: flex;
+}
+.title-container img{
+    transform: rotate(180deg);
+    margin-right: 14px;
 }
 
 @media (max-width: 640px ) {
